@@ -112,8 +112,8 @@ and to stop the whole bot,
 <details>
   <summary><b>Vars and Details :</b></summary>
 
-Create a file named `config.env` in the root directory and add all the variables there.
-An example of `config.env` file:
+Go to a file named `Vars.py` in the `biisal` Named File and add all the variables there.
+An example of `Vars.py` file:
 
 ```py
 API_ID=12345
