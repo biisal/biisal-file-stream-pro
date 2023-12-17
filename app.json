@@ -78,11 +78,6 @@
             "value": "True",
             "required": false
         },
-        "MY_PASS": {
-            "description": "Leave empty if dont need password else enter Your Password",
-            "value": "None",
-            "required": false
-        },
         "BIND_ADRESS": {
             "description": "Read the readme for more info about this var  Leave Empty  For heroku",
             "required": false

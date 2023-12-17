@@ -15,24 +15,6 @@ db = Database(Var.DATABASE_URL, Var.name)
 from pyrogram.types import ReplyKeyboardMarkup
 from biisal.vars import bot_name , bisal_channel , bisal_grp
 
-if MY_PASS:
-            buttonz=ReplyKeyboardMarkup(
-            [
-                ["ɢᴇᴛ ᴍᴏᴠɪᴇs ғɪʟᴇs ғʀᴇᴇ"]
-                        
-            ],
-            resize_keyboard=True
-        )
-else:
-            buttonz=ReplyKeyboardMarkup(
-            [
-                
-                ["ɢᴇᴛ ᴍᴏᴠɪᴇs ғɪʟᴇs ғʀᴇᴇ"]
-                        
-            ],
-            resize_keyboard=True
-        )
-
 
 SRT_TXT = """<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀsɴᴀ {}!,
 I ᴀᴍ Fɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ.

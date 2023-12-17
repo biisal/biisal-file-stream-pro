@@ -129,8 +129,6 @@ DATABASE_URL=mongodb_uri
 
 `API_HASH` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
   
-`MY_PASS` : Bot PASSWORD
-
 `BOT_TOKEN` : Get the bot token from [@BotFather](https://telegram.dog/BotFather)
 
 `BIN_CHANNEL` : Create a new channel (private/public), add [@missrose_bot](https://telegram.dog/MissRose_bot) as admin to the channel and type /id. Now copy paste the ID into this field.
