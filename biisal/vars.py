@@ -12,9 +12,9 @@ bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', 'YOUR_API_ID'))
-    API_HASH = str(getenv('API_HASH', 'YOUR_API_HASH'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , 'YOUR_BOT_TOKEN'))
+    API_ID = int(getenv('API_ID', '20682434'))
+    API_HASH = str(getenv('API_HASH', '65f2892538730aefa083e019be70b33e'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '6311401269:AAGkIw380FeE2dQL52agq6QhAztaRLUI1Jk'))
     name = str(getenv('name', 'bisal_file2link_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
@@ -23,10 +23,10 @@ class Var(object):
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "YOUR ID").split())  
+    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1823922721").split())  
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'YOUR_USERNAME WITHOUT @'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'FBP BOTS'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME')) #dont need to fill anything here
@@ -40,7 +40,7 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'YOUR MONGO DB URL'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'YOUR PUBLIC CHANNEL USERNAME WITHOUT @')) 
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'FBP BOTS')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "THE CHANNEL ID THAT YOU WANT TO BAN")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "SAME AS BANNED CHANNELS")).split()))   
     
