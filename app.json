@@ -97,6 +97,10 @@
             "description": " Session Name for Bot [ Add biisal]",
             "value": "File-To-Link",
             "required": false
+        },
+        "BAN_ALERT": {
+            "description": "[Optional] Add the text you wish to display when attempting to get links while banned."
+            
         }
     },
     "buildpacks": [
