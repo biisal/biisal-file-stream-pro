@@ -166,7 +166,7 @@ DATABASE_URL=mongodb_uri
  
 `/start` : To check if the bot is alive or not.
 
-To get an instant stream link, just forward any media to the bot and boom, its fast af.
+To get an instant stream link, just forward any media to the bot and boom, its 🚀🚀.
   
 ![image](https://i.postimg.cc/7hbFzd7X/20231212-235124.jpg)
 
