@@ -94,7 +94,7 @@
             "required": false
         },
         "name": {
-            "description": " Session Name for Bot [ Add biisal]",
+            "description": "Session Name for Bot",
             "value": "File-To-Link",
             "required": false
         },
@@ -103,15 +103,14 @@
             
         }
     },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
     "formation": {
         "web": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
